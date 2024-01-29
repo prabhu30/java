@@ -1,3 +1,5 @@
+package CodingPractice;
+
 import java.util.Scanner;
 
 public class GreatestOfThree {
