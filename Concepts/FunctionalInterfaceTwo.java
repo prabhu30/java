@@ -10,8 +10,9 @@ public class FunctionalInterfaceTwo {
 
         UserBalance obj = new UserBalance() {
             public void displayBalance() {
-                System.out.println("Your Balance is ₹ 10,00,00,000");
+                System.out.println("Your Balance is 10,00,00,000");
             }
         };
+        obj.displayBalance();
     }
 }

@@ -7,7 +7,8 @@ package Concepts;
  * of interface, or should be declared as abstract class
  *
  * 3. Data fields in interface are "static" and "final" by default. The values
- * cannot be changed. An object class which implements the interface will be able to
+ * cannot be changed. An object class which implements the interface will be
+ * able to
  * access these data fields.
  *
  * 4. An interface can "extend" another interface
@@ -16,7 +17,9 @@ package Concepts;
  */
 interface Programming {
     String language = "java";
+
     void coding();
+
     void creating();
 }
 
@@ -49,7 +52,7 @@ public class InterfaceOne {
         Playing obj1 = new Student();
         obj1.playGame();
 
-        System.out.println(obj.language);
+        // System.out.println(obj.language);
         System.out.println(Programming.language);
     }
 }
